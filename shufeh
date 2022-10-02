@@ -1,8 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Player = game:GetService("Players")
-local playername = plr.Name
-local url = "https://discord.com/api/webhooks/1026231705071263776/kpkvZru6JIQWUFvth315qPJBGv4T9fkrDZxZsu5bZ3JOALx9-KOmVLNnNCrRTGpv73oP"
-
+local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "Nico Key System", HidePremium = false, SaveConfig = true, IntroText = "Nico Key", IntroEnabled = false})
 OrionLib:MakeNotification({
 	Name = "Script key system!",
@@ -279,20 +276,10 @@ Tab:AddButton({
 	Callback = function()
 		if _G.KeyInput == _G.PremiumKey then
 		PrivateScript()
-		print(http.post(url, json.encode {
-			content = "print(plr.name) used private script!",
-			username = "hi!"
-		}, {
-    ["Content-Type"] = "application/json"
-}))
 		else
 			if _G.KeyInput == _G.Key then
 			MakeScriptHub()
 			CorrectKeyNotification()
-			print(http.post(url, json.encode {
-				content = "print(plr.name) used private script!",
-				username = "hi!"
-			}, {
 			else
 				IncorrectKeyNotification()
 		end
