@@ -21,6 +21,7 @@ local Tab = Window:MakeTab({
 })
 Tab:AddParagraph("Warning!","Now private scripts didnt working! we are working hard on private script! Please wait.")
 end
+-- PRIVATE SCRIPT --
 
 -- FREE SCRIPT --
 function MakeScriptHub()
@@ -174,7 +175,7 @@ Tab:AddButton({
 -- Mining Simulator 2 --
 -- The Thief Simulator --
 local Tab = Window:MakeTab({
-	Name = "Mining Simulator 2",
+	Name = "The Thief Simulator",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -184,7 +185,7 @@ Tab:AddButton({
 		loadstring(game:HttpGet("https://www.system-exodus.com/scripts/misc-releases/ThiefSimulator.lua"))()
   	end
 })
--- Mining Simulator 2 --
+-- The Thief Simulator --
 -- KAT --
 local Tab = Window:MakeTab({
 	Name = "KAT",
@@ -238,6 +239,7 @@ Tab:AddButton({
 })
 -- A Universal Time --
 end
+-- FREE SCRIPT --
 
 
 function CorrectKeyNotification()
