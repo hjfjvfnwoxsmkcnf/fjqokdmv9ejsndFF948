@@ -7,7 +7,7 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-_G.Key = "NICO-PRO"
+_G.Key = "NICOSCLUB=GOD"
 _G.KeyInput = "string"
 _G.PremiumKey = "TYFORSUP"
 
@@ -94,6 +94,32 @@ Tab:AddButton({
   	end
 })
 -- Doors --
+-- Bed Wars --
+local Tab = Window:MakeTab({
+	Name = "Bed Wars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "BW: Menu script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/bedwars"))()
+  	end
+})
+-- Bed Wars --
+-- Ninja Legends --
+local Tab = Window:MakeTab({
+	Name = "Ninja Legends",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "NL: tp, farm and other",
+	Callback = function()
+		loadstring(Game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+  	end
+})
+-- Ninja Legends --
 -- Arsenal --
 local Tab = Window:MakeTab({
 	Name = "Arsenal",
@@ -107,6 +133,19 @@ Tab:AddButton({
   	end
 })
 -- Arsenal --
+-- Bee Swarm Simulator --
+local Tab = Window:MakeTab({
+	Name = "Bee Swarm Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "BSS: Pepsi Hub",
+	Callback = function()
+		loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
+  	end
+})
+-- Bee Swarm Simulator --
 -- MM2 --
 local Tab = Window:MakeTab({
 	Name = "MM2",
@@ -145,7 +184,33 @@ Tab:AddButton({
 		loadstring(game:HttpGet("https://www.system-exodus.com/scripts/misc-releases/ThiefSimulator.lua"))()
   	end
 })
--- The Thief Simulator --
+-- Mining Simulator 2 --
+-- KAT --
+local Tab = Window:MakeTab({
+	Name = "KAT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "KAT: Mega Menu",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/6rd91GZx"))()
+  	end
+})
+-- KAT --
+-- Mad City --
+local Tab = Window:MakeTab({
+	Name = "Mad City",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "MC: Menu",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua"))()
+  	end
+})
+-- Mad City --
 -- Counter Blox Remastered --
 local Tab = Window:MakeTab({
 	Name = "Counter Blox: Remastered",
@@ -153,9 +218,9 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "CB: CaseOpener",
+	Name = "CBR: CaseOpener",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/kodescripts/scripts/main/CaseOpener.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/cbr1"))()
   	end
 })
 -- Counter Blox Remastered --
