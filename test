@@ -18,7 +18,7 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-_G.Key = "NICOSCLUB=GOD"
+_G.Key = "MEGAUPDCLUB"
 _G.KeyInput = "string"
 _G.PremiumKey = "TYFORSUP"
 
