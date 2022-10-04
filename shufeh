@@ -1,6 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
 local plrname = Player.name
+https://raw.githubusercontent.com/hjfjvfnwoxsmkcnf/fjqokdmv9ejsndFF948/main/gfhfdhvcjje
 local HS = game:GetService("HttpService")
 local WebhookURL = "https://discord.com/api/webhooks/1026231705071263776/kpkvZru6JIQWUFvth315qPJBGv4T9fkrDZxZsu5bZ3JOALx9-KOmVLNnNCrRTGpv73oP"
 
@@ -31,6 +32,231 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddParagraph("Warning!","Now private scripts didnt working! we are working hard on private script! Please wait.")
+-- PREMIUM --
+local Tab = Window:MakeTab({
+	Name = "Premium",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Crash Scripts: Script for destroy server",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/ptpKWPrJ"))()
+  	end
+})
+-- PREMIUM --
+-- PET SIM X --
+local Tab = Window:MakeTab({
+	Name = "Pet Sim X",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Pet Sim X: Noob Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/INoobie/Lua/main/MainHub/Loader'))()
+  	end
+})
+Tab:AddButton({
+	Name = "Pet Sim X: Project Sinister",
+	Callback = function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Blackout4781/Project-Sinister/main/ProjectSinisterLoader"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Pet Sim X: Auto Farm, Auto open Egg, Auto Farm Chest",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/x2-Pet-Simulator-X!-Project-Meow-5322"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Pet Sim X: Punic",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+  	end
+})
+-- PET SIM X --
+-- Phantom Forces --
+local Tab = Window:MakeTab({
+	Name = "Phantom Forces",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Phantom Forces: [Silent Aim, Esp]",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Phantom Forces: Menu script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Phantom Forces: [Unlock All Guns, Admin Guns, Attachments, unlock all]",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/Releases/main/PF_UnlockAll.lua"))()
+  	end
+})
+-- Phantom Forces --
+-- Doors --
+local Tab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Doors: Esp, Key Aura, Speed",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/doors1"))()
+  	end
+})
+-- Doors --
+-- Bed Wars --
+local Tab = Window:MakeTab({
+	Name = "Bed Wars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "BW: Menu script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/bedwars"))()
+  	end
+})
+-- Bed Wars --
+-- Ninja Legends --
+local Tab = Window:MakeTab({
+	Name = "Ninja Legends",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "NL: tp, farm and other",
+	Callback = function()
+		loadstring(Game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+  	end
+})
+-- Ninja Legends --
+-- Arsenal --
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Arsenal: DexHub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+  	end
+})
+-- Arsenal --
+-- Bee Swarm Simulator --
+local Tab = Window:MakeTab({
+	Name = "Bee Swarm Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "BSS: Pepsi Hub",
+	Callback = function()
+		loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
+  	end
+})
+-- Bee Swarm Simulator --
+-- MM2 --
+local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Murder Mystery 2: Master Menu",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+  	end
+})
+-- MM2 --
+-- Mining simulator 2 --
+local Tab = Window:MakeTab({
+	Name = "Mining Simulator 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "MS 2: Farm, visual, tp and more other",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+  	end
+})
+-- Mining Simulator 2 --
+-- The Thief Simulator --
+local Tab = Window:MakeTab({
+	Name = "The Thief Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "TTS: Menu",
+	Callback = function()
+		loadstring(game:HttpGet("https://www.system-exodus.com/scripts/misc-releases/ThiefSimulator.lua"))()
+  	end
+})
+-- The Thief Simulator --
+-- KAT --
+local Tab = Window:MakeTab({
+	Name = "KAT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "KAT: Mega Menu",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/6rd91GZx"))()
+  	end
+})
+-- KAT --
+-- Mad City --
+local Tab = Window:MakeTab({
+	Name = "Mad City",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "MC: Menu",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua"))()
+  	end
+})
+-- Mad City --
+-- Counter Blox Remastered --
+local Tab = Window:MakeTab({
+	Name = "Counter Blox: Remastered",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "CBR: CaseOpener",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/cbr1"))()
+  	end
+})
+-- Counter Blox Remastered --
+-- A Universal Time --
+local Tab = Window:MakeTab({
+	Name = "A Universal Time",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "A Universal Time: Menu",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TweedLeak/Scripts/main/A-Universal-Time"))()
+  	end
+})
+-- A Universal Time --
 end
 -- PRIVATE SCRIPT --
 
