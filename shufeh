@@ -1,13 +1,24 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
+local plrname = Player.name
+local HS = game:GetService("HttpService")
+local WebhookURL = "https://discord.com/api/webhooks/1026231705071263776/kpkvZru6JIQWUFvth315qPJBGv4T9fkrDZxZsu5bZ3JOALx9-KOmVLNnNCrRTGpv73oP"
+
+local MsgPrivate = {
+	["content"] = "..plrname.. Used script! No errors on start!"
+}
+
+MsgPrivate = HS:JSONEncode(MsgPrivate)
+
+
 local Window = OrionLib:MakeWindow({Name = "Nico Key System", HidePremium = false, SaveConfig = true, IntroText = "Nico Key", IntroEnabled = false})
 OrionLib:MakeNotification({
 	Name = "Script key system!",
-	Content = "Reloaded content... wanna start!!!?? "..Player.Name..".",
+	Content = "Reloaded content... wanna start!!!?? "..plrname.." .",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-_G.Key = "MEGAUPDCLUB"
+_G.Key = "Si18jUFHkvnh291F"
 _G.KeyInput = "string"
 _G.PremiumKey = "TYFORSUP"
 
@@ -26,6 +37,12 @@ end
 -- FREE SCRIPT --
 function MakeScriptHub()
 local Window = OrionLib:MakeWindow({Name = "Nico Script System", HidePremium = true, SaveConfig = true, IntroText = "Nico Script Club", IntroEnabled = true})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddParagraph("Version: 2.5 - Join discord.gg/nicosclub","Hello! Its main page, i wanna say you no more info - Contacts: TG-@xKralTRx0. Contact if u wanna buy full script or searched bug/error")
 -- PET SIM X --
 local Tab = Window:MakeTab({
 	Name = "Pet Sim X",
@@ -276,6 +293,7 @@ Tab:AddButton({
 	Callback = function()
 		if _G.KeyInput == _G.PremiumKey then
 		PrivateScript()
+		HS:PostAsync(WebhookURL,MsgPrivate)
 		else
 			if _G.KeyInput == _G.Key then
 			MakeScriptHub()
