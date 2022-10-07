@@ -27,11 +27,11 @@ _G.PremiumKey = "TYFORSUP"
 function PrivateScript()
 local Window = OrionLib:MakeWindow({Name = "Nico Script System v2", HidePremium = true, SaveConfig = true, IntroText = "Nico Premium Club", IntroEnabled = true})
 local Tab = Window:MakeTab({
-	Name = "Oops!",
+	Name = "Nice!",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("Warning!","Now private scripts didnt working! we are working hard on private script! Please wait.")
+Tab:AddParagraph("Ty for buy!","Thanks for support script, you have full access and premium scripts.")
 -- PREMIUM --
 local Tab = Window:MakeTab({
 	Name = "Premium",
