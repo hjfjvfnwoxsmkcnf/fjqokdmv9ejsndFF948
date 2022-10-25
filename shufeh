@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-_G.Key = "Si18jUFHkvnh291F"
+_G.Key = "HALLOWEEN2022"
 _G.KeyInput = "string"
 _G.PremiumKey = "TYFORSUP"
 
