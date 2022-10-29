@@ -1,8 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
 local plrname = Player.name
-https://raw.githubusercontent.com/hjfjvfnwoxsmkcnf/fjqokdmv9ejsndFF948/main/gfhfdhvcjje
-
 local Window = OrionLib:MakeWindow({Name = "Nico Ultimate Gamepass", HidePremium = false, SaveConfig = true, IntroText = "Nico Ultimate Gamepass", IntroEnabled = true})
 OrionLib:MakeNotification({
 	Name = "Ultimate Gamepass ready for hack!",
