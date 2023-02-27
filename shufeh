@@ -551,12 +551,8 @@ Tab:AddTextbox({
 Tab:AddButton({
 	Name = "Check Key",
 	Callback = function()
-		if _G.KeyInput == _G.PremiumKey and then
-			if plrname == HAD879 then
-			PrivateScript()
-			else
-			LeakBad()
-			end
+		if _G.KeyInput == _G.PremiumKey and plrname == HAD879 then
+		PrivateScript()
 		HS:PostAsync(WebhookURL,MsgPrivate)
 		else
 			if _G.KeyInput == _G.Key then
