@@ -551,7 +551,7 @@ Tab:AddTextbox({
 Tab:AddButton({
 	Name = "Check Key",
 	Callback = function()
-		if _G.KeyInput == _G.PremiumKey and plrname == HAD879 then
+		if _G.KeyInput == _G.PremiumKey and plrname == HAD879 or znamkakodasezovem9 or ydutdjgfiyfipfo then
 		PrivateScript()
 		HS:PostAsync(WebhookURL,MsgPrivate)
 		else
