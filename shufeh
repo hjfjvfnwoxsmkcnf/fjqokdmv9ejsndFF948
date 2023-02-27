@@ -530,7 +530,7 @@ end
 function IncorrectKeyNotification()
 	OrionLib:MakeNotification({
 		Name = "Script unloaded!",
-		Content = "Get key from - discord.gg/nicosclub",
+		Content = "Get key from - discord.gg/xKdcdR55ND",
   		Image = "rbxassetid://6257079063",
 		Time = 5
   	})
@@ -541,7 +541,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddTextbox({
-  Name = "Enter Key - discord.gg/nicosclub",
+  Name = "Enter Key From - discord.gg/xKdcdR55ND",
 	Default = "Enter Key",
 	TextDisappear = true,
 	Callback = function(Value)
