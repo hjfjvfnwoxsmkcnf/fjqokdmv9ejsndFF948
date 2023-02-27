@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Player = game.Players.LocalPlayer
 local plrname = Player.name
 local HS = game:GetService("HttpService")
-local WebhookURL = "https://discord.com/api/webhooks/1026231705071263776/kpkvZru6JIQWUFvth315qPJBGv4T9fkrDZxZsu5bZ3JOALx9-KOmVLNnNCrRTGpv73oP"
+local WebhookURL = "DELETED"
 
 local MsgPrivate = {
 	["content"] = "..plrname.. Used script! No errors on start!"
@@ -18,19 +18,35 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-_G.Key = "NEWUPDOCTOBER"
+_G.Key = "NICOVERIFYME"
 _G.KeyInput = "string"
-_G.PremiumKey = "TYFORSUP"
+_G.PremiumKey = "NICOGIVE"
 
+-- ANTI LEAK --
+function PrivateScript()
+local Window = OrionLib:MakeWindow({Name = "Nico Script System v2", HidePremium = true, SaveConfig = true, IntroText = "Nico Premium Club", IntroEnabled = true})
+local Tab = Window:MakeTab({
+	Name = "Someone dumb",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddParagraph("Hello!","U tryed leak premium key, please buy REAL premium key or use free key. Thanks.")
+-- PREMIUM --
+local Tab = Window:MakeTab({
+	Name = "Premium",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+-- ANTI LEAK --
 -- PRIVATE SCRIPT --
 function PrivateScript()
 local Window = OrionLib:MakeWindow({Name = "Nico Script System v2", HidePremium = true, SaveConfig = true, IntroText = "Nico Premium Club", IntroEnabled = true})
 local Tab = Window:MakeTab({
-	Name = "Nice!",
+	Name = "Premium Script",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("Ty for buy!","Thanks for support script, you have full access and premium scripts.")
+Tab:AddParagraph("Ty for buy!","Thanks for support script, you have full access and premium scripts. DM Nico-Nico for get premium role in Nico's Software")
 -- PREMIUM --
 local Tab = Window:MakeTab({
 	Name = "Premium",
@@ -535,8 +551,12 @@ Tab:AddTextbox({
 Tab:AddButton({
 	Name = "Check Key",
 	Callback = function()
-		if _G.KeyInput == _G.PremiumKey then
-		PrivateScript()
+		if _G.KeyInput == _G.PremiumKey and then
+			if plrname == HAD879 then
+			PrivateScript()
+			else
+			LeakBad()
+			end
 		HS:PostAsync(WebhookURL,MsgPrivate)
 		else
 			if _G.KeyInput == _G.Key then
